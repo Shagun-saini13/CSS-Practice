@@ -53,9 +53,28 @@ a{
     font-size: 25px;
 } 
 #padding{
+    display: inline-block;
     height: 80px;
     width: 80px;
     background-color: pink;
     border: 2px solid blue;
     padding-left: 25px;
+    margin: 50px;
+}
+
+.Box{
+    height: 80px;
+    width: 80px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
+#box1{
+    background-color: red;
+}
+#box2{
+    background-color: green;
+}
+#box3{
+    background-color: blue;
 }
