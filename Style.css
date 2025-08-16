@@ -62,7 +62,7 @@ a{
     margin: 25px;
     display: inline-block;
 }  
-#box2{
+#boxx2{
     visibility: hidden;
 }
 
@@ -88,4 +88,47 @@ footer{
     text-align: center;
     color: white;
     background-color: #0f1111;
+}
+
+/* Percentage */
+#percentage{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    font-size: 10px;
+}
+#per{
+    height: 50px;
+    width: 50%;
+    background-color: pink;
+    font-size: 2em;
+    /* 2em-> Two times of parent's font size */
+}
+
+.boxxx{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block
+}
+
+#box1{
+    background-color: rgb(216, 53, 53);
+    position: static;
+}
+#box2{
+    background-color: rgb(93, 216, 165);
+    position: relative;
+    top: 20px;
+    left: 10px;
+}
+#box3{
+    background-color: rgb(72, 192, 208);
+    position: sticky;
+    top: 0;
+}
+#box4{
+    background-color: rgb(187, 144, 225);
+    position: fixed;
+    top: 0;
 }
